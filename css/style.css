@@ -1,0 +1,460 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+ /*header start*/
+ header{
+
+ }
+.container {
+	margin: 0 auto;
+	width: 80%;
+   /* border: 1px solid red;*/
+    overflow: hidden;
+}
+
+.logo {
+	float: left;
+	width: 18%;
+	/*border: 1px solid red;*/
+	margin-top: 5px;
+}
+	
+
+.logo img{
+ width: 100%;
+}
+
+.menu {
+	float: right;
+	width: 80%;
+	}
+	/*border: 1px solid red;*/
+
+
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	
+	padding: 10px 15px;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+
+	color: #535D69;
+	text-decoration: none;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.menu ul li a:hover{
+     color: #BD233F;
+}
+
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.b-content{
+	
+
+	width: 51%;
+	margin: 100px 0;
+
+}
+.b-content h1{
+margin: 0 0 30px;
+font-family: sans-serif;
+font-size: 67px;
+font-weight: 700;
+color: white;
+text-transform: capitalize;
+}
+.b-content p{
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: white;
+text-transform: capitalize;
+line-height: 23px;
+}
+.b-content button{
+margin-top: 40px; 
+width: 250px;
+height: 50px;
+background-color: red;
+border: none;
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 400;
+color: white;
+cursor: pointer;
+
+}
+
+.b-content button:hover {
+	color: red;
+	background-color: white;
+}
+/*banner end*/
+/*works start*/
+.works{
+	padding: 100px 0;
+}
+.c-title{
+margin: 0 auto;
+width: 60%;
+text-align: center;
+
+
+}
+.c-h1{
+margin: 0 0 20px;
+font-family: sans-serif;
+font-size: 30px;
+font-weight: 700;
+}
+.c-p{
+margin: 0;
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 600;
+color: #535D69;
+line-height: 25px;
+}
+.w-content{
+	margin: 100px 0 0;
+	overflow: hidden;
+}
+/*single start*/
+.single{
+width: 25%;
+float: left;
+padding: 20px 4.16%;
+text-align: center;
+}
+.s-img{
+	margin: 0 auto;
+	width: 45%;
+}
+.s-img img{
+width: 100%
+}
+.single h3 {
+	
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: #535D69;
+	line-height: 25px;
+}
+
+/*single end*/
+/*works end*/
+/*learn start*/
+.learn{
+	padding: 100px 0;
+
+}
+
+.l-text {
+	width: 38%;
+	float: left;
+}
+.l-text h1 {
+	font-family: sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 35px;
+	margin: 10px 0;
+}
+.l-text p{
+margin: 0;
+font-family: sans-serif;
+font-size: 17px;
+font-weight: 400;
+color: #535D69;
+line-height: 27px;
+}
+.l-text button {
+	margin-top: 20px;
+	width: 200px;
+	height: 45px;
+	background-color: red;
+	border: none;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	cursor: pointer;
+}
+.l-text button;hover{
+	color: red;
+	background-color: white;
+}
+.l-video{
+width: 52%;
+float: right;
+padding-right: 20px;
+}
+.l-video img {
+	height: 250px;
+	width: 100%;
+}
+/*learn end*/
+ /*features start */
+ .features{
+ 	padding: 100px 0;
+ 	overflow: hidden;
+ }
+ .f-content {
+ 	padding: 0 8px;
+ 	margin: 10px;
+	width: 30%;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3s;
+}
+ .f-icon {
+	width: 30%;
+	margin: 0 auto;
+
+}
+ .f-icon span{}
+ .f-icon span i {
+	padding: 15px 0px;
+	
+	font-size: 50px;
+	color: blue;
+}
+ .f-content h3 {
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+}
+ .f-content p {
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	color: #535D69;
+	line-height: 25px;
+}
+.ml-0{
+	margin-left: 0;
+}
+.mr-0{
+	margin-right: 0;
+}
+.p_b{
+	padding: 0 0 70px;
+}
+.btn{
+	text-align: center;
+}
+.btn button{
+margin: 96px 0 0;	
+width: 200px;
+height: 42px;
+background-color: white;
+font-family: sans-serif;
+font-size: 15px;
+font-weight: 400;
+border-radius: 5px;
+border: 1px solid #ddd;
+box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+transition: all 0.3s;
+cursor: pointer;
+}
+ /*features end*/
+/*contact start*/
+
+#e-mail {
+	width: 215px;
+	height: 48px;
+	text-align: center;
+	font-size: 18px;
+	border: 1px solid #ddd;
+	margin: 40px 0;
+	padding: 0 0;
+}
+
+.contact {
+	background-color: black;
+	padding: 50px 0;
+}
+
+
+
+.contact-us {
+	
+	float: left;
+	width: 30%;
+	
+	padding: 0 0;
+}
+.contact-us h2{
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: red;
+	line-height: 25px;
+}
+.contact-us p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	color: #535D69;
+	line-height: 25px;
+}
+.contact-us p span{}
+.contact-us p span i{
+margin: 15px 10px 0 auto;
+color: red;
+font-size: 20px;
+
+}
+.contact-us span{}
+.contact-us span i{
+margin-right: 15px;
+
+}
+.far.fa-envelope {
+}
+
+.fas.fa-map-marker-alt {
+}
+
+.fab.fa-facebook {
+font-weight: 400;
+border: 1px solid #ddd;
+padding: 10px;
+margin: 20px 0;
+font-size: 20px;
+background-color: #535D69;
+}
+
+.fab.fa-youtube {
+font-size: 20px;
+font-weight: 400;
+border: 1px solid #ddd;
+padding: 10px;
+margin: 20px 0;
+background-color: #535D69;
+}
+
+.fab.fa-twitter {
+font-size: 20px;
+font-weight: 400;
+border: 1px solid #ddd;
+padding: 10px;
+margin: 20px 0;
+background-color: #535D69;
+}
+
+.fab.fa-whatsapp {
+font-size: 20px;	
+font-weight: 400;
+border: 1px solid #ddd;
+padding: 10px;
+margin: 20px 0;
+background-color: #535D69;
+}
+
+.useful-link {
+	
+	float: left;
+	width: 30%;
+	margin: 0 15px;
+	padding-left: 60px;
+}
+.useful-link h2{
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: red;
+	line-height: 25px;
+}
+.useful-link p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	color: #535D69;
+	line-height: 25px;
+}
+.useful-link p span{
+margin-right: 10px;
+color: red;
+}
+.useful-link p span i{}
+.fas.fa-caret-left {
+}
+
+.our-newsletter {
+	
+	float: left;
+	width: 30%;
+	
+}
+.our-newsletter h2{
+	font-family: sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	color: red;
+	line-height: 25px;
+}
+.our-newsletter p {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	color: #535D69;
+	line-height: 42px;
+	margin: 40px 0 0;
+}
+.our-newsletter form{}
+.our-newsletter form input {
+	width: 144px;
+	height: 51px;
+	margin: 0 0 43px;
+	font-size: 16px;
+	
+}
+.contact-us span i:hover{
+background-color: red;
+}
+.submit{
+color: white;
+background-color: red;
+border: none;
+}
+/*contact end*/
+/*footer start*/
+.footer{
+	background-color: #535D69;
+}
+.footer-text {
+	text-align: center;
+	color: white;
+}
+.footer-text p{
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 20px 0;
+}
+/*footer end*/
